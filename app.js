@@ -45,3 +45,18 @@
 //     // }
     
 // }
+
+function checkk(){
+    console.log("Ahsan")
+}
+// console.log(check())
+function keyLong(event){
+    var sett = true
+    if(sett){
+     console.log(event)
+ }
+}
+
+addEventListener(onkeypress(event) ,keyLong(){
+     
+})
