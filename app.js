@@ -79,5 +79,74 @@
 
 
 // ==========================================================
+//  var input = document.getElementById('input')
+//  var count = 0
+// function abc(event){
+//     // console.log(event)
+//     var check = true
+//     setTimeout(function(){
+//         if(event.type === "keydown"){
+//             check = false
+//             clearTimeout()  
+//                 count++
+//                 console.log(count)
+//             }
+//         },1000)
+//    if(event.type === "keyup"){
 
+//      setTimeout(function(e){
+//         console.log("Completed")
+//         // check = true
+//         document.write(input.value)
+//     },2000)
+// }
+// }
 // ==========================================================
+var main = document.getElementById("main")
+function updatebtn(){
+    // alert("ahsan")
+    // main.innerHTML = "<p>hi this is ahsan</p>"
+    // main.className += " green"
+    // if(event.type == "mouseout"){
+    //     main.className = "box"
+    // }
+    // console.log(event)
+} 
+// main.innerHTML = ' <button onclick="updatebtn()" onmouseout="updatebtn(event)">click</button>'
+// var count = 5
+// var btn = document.getElementById('btn')
+// var stp = document.getElementById('stp')
+// var start = document.getElementById('strt')
+// function move(){
+//     count += 5
+//     btn.style.left = count + "px"
+//     if(btn.style.left == "150px"){
+//         count = 0
+//     }
+// }
+// setInterval(move,1000)
+
+var car = document.getElementById('car')
+var count = 0
+function move(){
+    count += 10
+    car.style.left = count + "px"
+    if(car.style.left == "600px"){
+        count = 0
+        console.log("asan")
+    }
+}
+
+function go(event){
+    var ref = setInterval(move,100)
+    
+}
+function stopp(event){
+    
+   
+    clearInterval(ref)
+}
+
+// car.addEventListener('onkeydown',function(){
+//     console.log("ahsan")
+// })

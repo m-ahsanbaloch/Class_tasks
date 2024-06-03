@@ -25,12 +25,39 @@
 
     <!-- ======================================================================== -->
       
-
+    <!-- <div><input type="text" id="input" onkeydown="abc(event)" onkeyup="abc(event)"></div> -->
 
 
     <!-- ======================================================================== -->
-  
+    <div class="container">
+      <div class="image">
+        <img src="road.jpg" alt="">
+        <div class="car" onkeydown="moveup(event)" id="car">
+       
+          <img src="car3.webp" alt="">
+        </div>
+        <div class="lights">
+          <div class="red" id="red" onmouseover="stopp(event)"></div>
+          <div class="yellow" id="yellow"  onmouseover="go(event)"></div>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    <!-- ======================================================================== -->
 
+  <!-- <img src=""  alt="">
+<div id="main"  class="box">
+  <button id="btn" class="btn" >Car</button>
+ 
+</div>
+<div>
+  <button onclick="stop(event)" id="stp">stop</button>
+</div>
+<div>
+  <button onclick="start()" id="strt">start</button>
+</div> -->
     <script src="app.js"></script>
   </body>
 </html>
