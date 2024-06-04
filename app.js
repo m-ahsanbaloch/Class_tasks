@@ -150,9 +150,9 @@ car.focus()
 function moveUp(event){
     // car.tabIndex = 1
     console.log(event)
-    var count = 80
-    var up = event.keyCode
-    if(up == "119"){
+    var count = 110
+    
+    if(event.keyCode == "32"){
         count++
         car.style.bottom = count + "px"
         car.style.border = 0 + "px"
@@ -163,6 +163,10 @@ function moveUp(event){
     if(event.keyCode == "115"){
 count++
     car.style.bottom = 30 + "px"
+    }
+    if(event.type == "keyup"){
+            car.style.bottom = 30 + "px"
+
     }
 }
 
