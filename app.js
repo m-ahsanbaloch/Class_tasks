@@ -146,6 +146,30 @@ function stopp(event){
    
     clearInterval(ref)
 }
+car.focus()
+function moveUp(event){
+    // car.tabIndex = 1
+    console.log(event)
+    var count = 80
+    var up = event.keyCode
+    if(up == "119"){
+        count++
+        car.style.bottom = count + "px"
+        car.style.border = 0 + "px"
+        // car.style.bottom = 0 + "px"
+
+    
+}
+    if(event.keyCode == "115"){
+count++
+    car.style.bottom = 30 + "px"
+    }
+}
+
+// car.addEventListener('keydown',function moveUp(event){
+//     console.log("event")
+
+// })
 
 // car.addEventListener('onkeydown',function(){
 //     console.log("ahsan")

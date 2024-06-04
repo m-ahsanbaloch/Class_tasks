@@ -61,7 +61,7 @@ input{
 }
 .car{
     position: absolute;
-    bottom: 0px;
+    bottom: 60px;
     /* width: 10%; */
     left: 0px;
     /* background-color: red; */
@@ -70,6 +70,10 @@ input{
     width: 200px;
     height: auto;
     object-fit: contain;
+}
+.car:focus{
+    border: none !important;
+    outline: none !important;
 }
 .lights{
     width: 50px;
